@@ -1,0 +1,83 @@
+.custom-title {
+  color: #007bff;
+  padding-top: 10px;
+}
+#filter-form {
+  margin-top: 5px;
+}
+#filter-form input,
+#filter-form select {
+  height: 30px;
+  font-size: 14px;
+  padding: 3px 12px;
+}
+
+#filter-form .form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  font-size: 0.7rem;
+}
+.card {
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-img-top {
+  height: 100px;
+  object-fit: cover;
+}
+
+.card-body {
+  flex-grow: 1;
+}
+
+.card-title {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  flex-grow: 1;
+  margin-bottom: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.card .btn-primary {
+  font-size: 0.5rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.25rem;
+}
+.btn-primary {
+  /* margin-top: auto; */
+}
+#filter-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 7px;
+}
+#filter-form .form-group {
+  margin-bottom: 5px;
+}
+#filter-form .btn {
+  width: 100%;
+}
+.pagination {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f8f9fa;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.container {
+  padding-bottom: 70px;
+}

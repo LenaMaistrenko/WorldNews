@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h4 class="text-center custom-title">World news</h4>
+      <form id="filter-form" class="mb-2">
+        <div class="form-group">
+          <label for="keyword">Keywords</label>
+          <input
+            type="text"
+            class="form-control"
+            id="keyword"
+            placeholder="Enter keywords"
+          />
+        </div>
+        <div class="form-group">
+          <label for="category">Category</label>
+          <select class="form-control" id="category">
+            <option value="">All Categories</option>
+            <option value="business">Business</option>
+            <option value="entertainment">Entertainment</option>
+            <option value="health">Health</option>
+            <option value="science">Science</option>
+            <option value="sports">Sports</option>
+            <option value="technology">Technology</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="date">Publication Date</label>
+          <input type="date" class="form-control" id="date" />
+        </div>
+        <div class="text-center">
+          <button type="submit" class="btn btn-primary center">
+            Search News
+          </button>
+        </div>
+      </form>
+      <div id="news-container" class="row"></div>
+      <nav>
+        <ul class="pagination justify-content-center">
+          <li class="page-item">
+            <a class="page-link" href="#" id="prev-page">&#9664;</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="#" id="next-page">&#9654;</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- jQuery and Popper.js ( для Bootstrap) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
